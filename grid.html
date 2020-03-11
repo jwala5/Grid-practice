@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .grid {
+            display: grid;
+            backgroound: orangered;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 10px;
+            grid-column-gap: 10px;
+        }
+
+        .item1 {
+            background: #ffccbc;
+        }
+
+        .item2 {
+            background: #fbe9e7;
+        }
+
+        .item3 {
+            background: #ffab91;
+        }
+
+        .item4 {
+            background: #ffab80;
+        }
+
+        .itme5 {
+            background: #ffab40:
+        }
+
+        div:first-child {
+            grid-column-start: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="item1">Focus</div>
+        <div class="item2">Academy</div>
+        <div class="item3">For</div>
+        <div class="item4">Career</div>
+        <div class="item5">Enhancement</div>
+    </div>
+</body>
+
+</html>
